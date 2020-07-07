@@ -20,10 +20,23 @@ element.style {
     bottom: 0;
     margin: auto;
     width: 150px;
-    height: 153px;
+    height: 150px;
     -webkit-animation: rotate-center 1s ease-in-out both;
 	        animation: rotate-center 1s ease-in-out both;
 }
+
+.load-gif-text {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    
+}
+
 
 @-webkit-keyframes rotate-center {
   0% {
@@ -54,6 +67,74 @@ nav ul li {
 	width: 50px;
 	height: 50px;
 }
-.navbar-toggler-icon{
-	color: #fc5185 !important;
+
+#service{
+	padding-bottom: 200px;
+	background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+#heading-service{
+	margin-left: 5%;
+	padding-top: 7%;
+	color: #ffffff;
+	font-weight: 900;
+}
+#dot{
+	color: #22d1ee;
+}
+#text-heading{
+	margin-left: 5%;
+	padding-top: 2%;
+	color: #ffffff;
+}
+#Web-text{
+	padding: 7%;
+	color: #ffffff;
+	text-align: center;
+}
+.fa-laptop-code{
+	color: #ffffff;
+	font-size: 64px;
+	text-align: center;
+	padding-bottom: 7%;
+}
+
+
+.Web{
+	background-color: #0d0d0d !important;
+	border-radius: 7% !important;
+	margin-left: 10%;
+	margin-top: 7%;
+	text-align: center;
+	margin-right: 10%;
+}
+
+.Web:hover{
+	background-color: #2f89fc !important;
+	border-radius: 7% !important;
+	margin-left: 10%;
+	margin-top: 7%;
+	color: #0d0d0d !important;
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }

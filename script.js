@@ -4,7 +4,14 @@ window.onload = (event) => {
     }, 1500);    
   };
 
-$(".toggle-menu").click(function () {
-  $(this).toggleClass("active");
-  $("#menu").toggleClass("open");
-});
+  document.getElementById("User").addEventListener("click", open,);
+
+function open() {
+
+  document.getElementById("User").innerHTML = "Your previos orders";
+}
+
+
+
+
+
