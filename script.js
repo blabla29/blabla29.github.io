@@ -6,10 +6,7 @@ window.onload = (event) => {
 
   document.getElementById("User").addEventListener("click", open,);
 
-function open() {
 
-  document.getElementById("User").innerHTML = "Your previos orders";
-}
 
 
 

@@ -138,3 +138,25 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
             transform: scale(1);
   }
 }
+#Work-Showcase{
+	color: #f2f2f2;
+}
+#heading-work{
+		margin-left: 5%;
+	padding-top: 7%;
+	color: black;
+	font-weight: 900;
+}
+.showcase{
+	
+	
+	margin-bottom: 30px;
+	
+	
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
