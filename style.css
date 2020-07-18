@@ -1,7 +1,7 @@
 
 body {
  
-  background-image: url(file:///C:/bojan/programi/web%20dev/Slozer-Agency/slide-1.jpg);
+  background-image: url(image-home.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -71,7 +71,7 @@ nav ul li {
 .nav-link:hover{
   color: white !important;
   padding: 5%;
-  border-bottom: 2px solid #ff1f5a !important;
+  border-bottom: 2px solid #28c7fa !important;
 }
 .nav-link{
   color: white !important;
@@ -91,18 +91,18 @@ nav ul li {
 }
 .btn-outline-danger{
   font-size: 32px !important;
-  border-color: #fc5185 !important;
+  border-color: #28c7fa !important;
   color: white !important;
-  border: 3px solid #ff1f5a !important;
+  border: 3px solid #28c7fa !important;
   
   margin-bottom: 10%;
 }
 .btn-outline-danger:hover{
   font-size: 32px !important;
-  border-color: #fc5185 !important;
+  border-color: #28c7fa !important;
   color: white !important;
   background-color: black !important;
-  border: 3px solid #ff1f5a !important;
+  border: 3px solid #28c7fa !important;
  
   margin-bottom: 10%;
 }
@@ -112,7 +112,7 @@ nav ul li {
   color: white !important;
 }
 .card-body:hover{
-  background-color: #ff1f5a !important;
+  background-color: #28c7fa !important;
   padding: 50px !important;
   color: white !important;
   -webkit-animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -124,8 +124,8 @@ nav ul li {
             transform: translateY(0);
   }
   100% {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
   }
 }
 @keyframes slide-top {
@@ -134,14 +134,14 @@ nav ul li {
             transform: translateY(0);
   }
   100% {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
   }
 }
 .card{
   border: #3e3636 !important;
   margin-top: 20%;
-  background-color:#ff1f5a !important ;
+  background-color:#28c7fa!important ;
   
 }
 .center {
@@ -151,5 +151,5 @@ nav ul li {
   width: 50%;
 }
 .border-title{
-  border-bottom: 1px solid #ff1f5a;
+  border-bottom: 1px solid #28c7fa;
 }
