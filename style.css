@@ -5,7 +5,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 #loading {
     position: fixed;
     top: 0;
@@ -15,7 +14,6 @@ body {
     background-color: black;
     z-index: 99999;
 }
-
 .load-gif {
     position: fixed;
     top: 0;
@@ -28,7 +26,6 @@ body {
     -webkit-animation: rotate-center 1s ease-in-out both;
 	        animation: rotate-center 1s ease-in-out both;
 }
-
 .load-gif-text {
     position: fixed;
     top: 0;
@@ -40,8 +37,6 @@ body {
     height: 120px;
     
 }
-
-
 @-webkit-keyframes rotate-center {
   0% {
     -webkit-transform: rotate(0);
@@ -62,20 +57,19 @@ body {
             transform: rotate(360deg);
   }
 }
-
-
 nav ul li {
   font-size: 22px;
   
 }
 .nav-link:hover{
   color: white !important;
-  padding: 5%;
-  border-bottom: 2px solid #28c7fa !important;
+  margin: 5%;
+  border-bottom: 2px solid #0091FF !important;
+  
 }
 .nav-link{
   color: white !important;
-  padding: 5%;
+  margin: 5%;
 }
 #text-nav{
   margin-left: 10%;
@@ -91,57 +85,36 @@ nav ul li {
 }
 .btn-outline-danger{
   font-size: 32px !important;
-  border-color: #28c7fa !important;
+  border-color: #0091FF !important;
   color: white !important;
-  border: 3px solid #28c7fa !important;
-  
+  border: 3px solid#0091FF !important;
   margin-bottom: 10%;
 }
 .btn-outline-danger:hover{
   font-size: 32px !important;
-  border-color: #28c7fa !important;
+  border-color: black !important;
   color: white !important;
-  background-color: black !important;
-  border: 3px solid #28c7fa !important;
- 
+  background-color: #0091FF !important;
+  border: 3px solid #000000 !important;
   margin-bottom: 10%;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
 }
 .card-body{
   background-color: #050505 !important;
-  padding: 50px !important;
   color: white !important;
 }
 .card-body:hover{
-  background-color: #28c7fa !important;
-  padding: 50px !important;
-  color: white !important;
-  -webkit-animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-@-webkit-keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-30px);
-            transform: translateY(-30px);
-  }
-}
-@keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-30px);
-            transform: translateY(-30px);
-  }
+  background-color: #0091FF !important;
+  color: black !important;
+  transition: ease-in;
+  transition-duration: 0.5s;
 }
 .card{
   border: #3e3636 !important;
   margin-top: 20%;
-  background-color:#28c7fa!important ;
+  background-color:#0091FF !important ;
+  margin-bottom: 20%;
   
 }
 .center {
@@ -151,5 +124,19 @@ nav ul li {
   width: 50%;
 }
 .border-title{
-  border-bottom: 1px solid #28c7fa;
+  border-bottom: 1px solid #0091FF;
+}
+#Works-slider{
+  background-color: #050505 ;
+  padding-top:2%;
+}
+#heading-works{
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 48px !important;
+}
+#t-works{
+  font-family: 'Bebas Neue', cursive;
+  color: #0091FF;
+  font-size: 24px;
 }
