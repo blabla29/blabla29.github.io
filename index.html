@@ -54,7 +54,7 @@
 				            <a class="nav-link nav-icon" href="#"><i class="far fa-folder-open"></i></a>
 				        </li>
 				        <li class="nav-item">
-				            <a class="nav-link nav-icon" href="#"><i class="far fa-user" id="User"></i></a>
+				            <a class="nav-link nav-icon" href="#"><i class="far fa-user" id="User" onclick="document.getElementById('id01').style.display='block'"></i></a>
 				        </li>
 				    </ul>
 			    </div>
@@ -127,14 +127,58 @@
 				</div>
 			</div>		
 		</div>
-		
-		
 	</section>
+	<!--------------------------------------------- Works-slider --------------------------------------------->
 
 
-
-
-
+	<!---------------------------------------------  Sign-Up form --------------------------------------------->
+		<div id="id01" class="modal">
+			<form class="needs-validation modal-content" novalidate  action="/action_page.php" style="background-color: white; padding: 50px;">
+				<div class="container text-center text-form">
+					<h2>Sign Up</h2>
+					<h5>Please fill in this form to create an account.</h5>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-sm-12">
+							<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First Name">
+							<br>
+						</div>
+							<br>
+						<div class="col-lg-6 col-sm-12">
+							<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last Name">
+						</div>
+					</div>
+						<br>
+					<div class="row">
+						<div class="col-lg-6 col-sm-12">
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
+							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+						</div>
+					
+						<div class="col-lg-6 col-sm-12">
+							<div class="form-group">
+								<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+				 <label>
+					<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+				</label>
+				
+				<p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+				
+				<div class="clearfix">
+					
+					<button type="button" class="btn btn-danger cancelbtn" onclick="document.getElementById('id01').style.display='none'">Cancel</button>
+					 <button type="submit" class="btn btn-success signupbtn">Sign Up</button>
+				</div>
+			</form>
+		</div>
+	<!---------------------------------------------  Sign-Up form --------------------------------------------->
+		
 	<!--------------------------------------------- SCRIPTS --------------------------------------------->	
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		
