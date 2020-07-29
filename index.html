@@ -43,20 +43,27 @@
 			        <a class="nav-link " href="#">Works</a>
 			      </li>
 			       <li class="nav-item">
-			        <a class="nav-link" href="#">Pricing</a>
+			        <a class="nav-link" href="file:///C:/bojan/programi/web%20dev/Slozer-Agency/price.html">Pricing</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="#">Contact</a>
 			      </li>
 			    </ul>
-			  	    <ul class="navbar-nav ml-auto">
+			  	    <!-- <ul class="navbar-nav ml-auto">
 				        <li class="nav-item">
 				            <a class="nav-link nav-icon" href="#"><i class="far fa-folder-open"></i></a>
 				        </li>
 				        <li class="nav-item">
-				            <a class="nav-link nav-icon" href="#"><i class="far fa-user" id="User" onclick="document.getElementById('id01').style.display='block'"></i></a>
+				            <a class="nav-link nav-icon" href="#"><i class="far fa-user" id="User" onclick="document.getElementById('id01').style.display='block'"  style="width:auto;"></i></a>
 				        </li>
-				    </ul>
+					</ul> -->
+					<div class="dropdown navbar-nav ml-auto">
+						<button  style="color: white !important;" class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="far fa-user"></i></button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">Login</a>
+							<a class="dropdown-item" href="#">Sign Up</a>
+						</div>
+					</div>
 			    </div>
 			</nav>
 	<!--------------------------------------------- Nav-Bar --------------------------------------------->
@@ -131,53 +138,52 @@
 	<!--------------------------------------------- Works-slider --------------------------------------------->
 
 
-	<!---------------------------------------------  Sign-Up form --------------------------------------------->
+	<!---------------------------------------------  Login form --------------------------------------------->
+		<div class="container">
 		<div id="id01" class="modal">
-			<form class="needs-validation modal-content" novalidate  action="/action_page.php" style="background-color: white; padding: 50px;">
-				<div class="container text-center text-form">
-					<h2>Sign Up</h2>
-					<h5>Please fill in this form to create an account.</h5>
+			<form class="modal-content animate" action="/action_page.php" method="post">
+				<div class="imgcontainer">
+					<span onclick="document.getElementById('id01').style.display='none'" class="close"
+						title="Close Modal">&times;</span>
+					<h1>Login</h1>
 				</div>
+		
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-6 col-sm-12">
-							<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First Name">
-							<br>
-						</div>
-							<br>
-						<div class="col-lg-6 col-sm-12">
-							<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last Name">
-						</div>
-					</div>
-						<br>
-					<div class="row">
-						<div class="col-lg-6 col-sm-12">
-							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
+						<div class="col-lg-6 col-sm-12 offset-lg-3">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 						</div>
-					
-						<div class="col-lg-6 col-sm-12">
-							<div class="form-group">
-								<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-							</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-sm-12 offset-lg-3">
+							<label for="exampleInputPassword1">Password</label>
+							<input type="password" class="form-control" id="exampleInputPassword1">
 						</div>
 					</div>
-				</div>
-				<div class="container">
-				 <label>
-					<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-				</label>
-				
-				<p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-				
-				<div class="clearfix">
-					
-					<button type="button" class="btn btn-danger cancelbtn" onclick="document.getElementById('id01').style.display='none'">Cancel</button>
-					 <button type="submit" class="btn btn-success signupbtn">Sign Up</button>
+					<br>
+						<div class="container" style="background-color: white">
+							<div class="row offset-lg-3">
+								<div class=" col-lg-4 col-sm-12">	
+									<a href="file:///C:/bojan/programi/web%20dev/Slozer-Agency/signup.html" target="blank"><button type="button" class="btn btn-success">Sign Up</button></a>
+								</div>
+								<div class=" col-lg-4 col-sm-12">
+									<button type="submit" class="btn btn-primary">Login</button>
+								</div>
+								<div class="col-lg-4 col-sm-12">
+									<label>
+										<input type="checkbox" checked="checked" name="remember"> Remember me
+									</label>
+								</div>
+							</div>
+						</div>
 				</div>
 			</form>
 		</div>
-	<!---------------------------------------------  Sign-Up form --------------------------------------------->
+			
+		</div>
+	<!---------------------------------------------  Login form --------------------------------------------->
 		
 	<!--------------------------------------------- SCRIPTS --------------------------------------------->	
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
